@@ -19,7 +19,7 @@ The tutorial below consists of four parts:
 ### Part 1: Making on-the-fly audio processing possible
 We will compare the processing time between nnAudio GPU and librosa.
 
-The result shows librosa took 27 mins for one epoch, however **nnAudio GPU only took around 30s to finish one epoch** which is 54x faster than librosa!
+The result shows librosa took 27 mins for one epoch, however **nnAudio GPU only took around 17s to finish one epoch** which is 95x faster than librosa!
 
 ### Part 2: Training a Linear model with nnAudio Trainable Basis Functions
 We will demonstrate how to utilise nnAudio's trainable basis functions to build a powerful classifier.
